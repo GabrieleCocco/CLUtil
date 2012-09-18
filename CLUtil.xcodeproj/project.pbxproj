@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0AB6AE115F64671006E227E /* CLBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = E0AB6ACC15F64671006E227E /* CLBuffer.c */; };
+		E0AB6AE215F64671006E227E /* CLBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AB6ACD15F64671006E227E /* CLBuffer.h */; };
+		E0AB6AE315F64671006E227E /* CLCommandQueueInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = E0AB6ACE15F64671006E227E /* CLCommandQueueInfo.c */; };
+		E0AB6AE415F64671006E227E /* CLCommandQueueInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AB6ACF15F64671006E227E /* CLCommandQueueInfo.h */; };
+		E0AB6AE515F64671006E227E /* CLDevice.c in Sources */ = {isa = PBXBuildFile; fileRef = E0AB6AD015F64671006E227E /* CLDevice.c */; };
+		E0AB6AE615F64671006E227E /* CLDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AB6AD115F64671006E227E /* CLDevice.h */; };
+		E0AB6AE715F64671006E227E /* CLEnvironment.c in Sources */ = {isa = PBXBuildFile; fileRef = E0AB6AD215F64671006E227E /* CLEnvironment.c */; };
+		E0AB6AE815F64671006E227E /* CLEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AB6AD315F64671006E227E /* CLEnvironment.h */; };
+		E0AB6AE915F64671006E227E /* CLGeneral.c in Sources */ = {isa = PBXBuildFile; fileRef = E0AB6AD415F64671006E227E /* CLGeneral.c */; };
+		E0AB6AEA15F64671006E227E /* CLGeneral.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AB6AD515F64671006E227E /* CLGeneral.h */; };
+		E0AB6AEB15F64671006E227E /* CLMemorySetting.c in Sources */ = {isa = PBXBuildFile; fileRef = E0AB6AD615F64671006E227E /* CLMemorySetting.c */; };
+		E0AB6AEC15F64671006E227E /* CLMemorySetting.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AB6AD715F64671006E227E /* CLMemorySetting.h */; };
+		E0AB6AED15F64671006E227E /* CLOption.c in Sources */ = {isa = PBXBuildFile; fileRef = E0AB6AD815F64671006E227E /* CLOption.c */; };
+		E0AB6AEE15F64671006E227E /* CLOption.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AB6AD915F64671006E227E /* CLOption.h */; };
+		E0AB6AEF15F64671006E227E /* CLProfiling.c in Sources */ = {isa = PBXBuildFile; fileRef = E0AB6ADA15F64671006E227E /* CLProfiling.c */; };
+		E0AB6AF015F64671006E227E /* CLProfiling.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AB6ADB15F64671006E227E /* CLProfiling.h */; };
+		E0AB6AF115F64671006E227E /* CLSize.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AB6ADC15F64671006E227E /* CLSize.h */; };
+		E0AB6AF215F64671006E227E /* CLThreading.c in Sources */ = {isa = PBXBuildFile; fileRef = E0AB6ADD15F64671006E227E /* CLThreading.c */; };
+		E0AB6AF315F64671006E227E /* CLThreading.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AB6ADE15F64671006E227E /* CLThreading.h */; };
+		E0AB6AF415F64671006E227E /* CLTimer.c in Sources */ = {isa = PBXBuildFile; fileRef = E0AB6ADF15F64671006E227E /* CLTimer.c */; };
+		E0AB6AF515F64671006E227E /* CLTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AB6AE015F64671006E227E /* CLTimer.h */; };
+		E0AB6AF715F64682006E227E /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0AB6AF615F64682006E227E /* OpenCL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0AB6AC515F64629006E227E /* libCLUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCLUtil.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0AB6ACC15F64671006E227E /* CLBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLBuffer.c; sourceTree = "<group>"; };
+		E0AB6ACD15F64671006E227E /* CLBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBuffer.h; sourceTree = "<group>"; };
+		E0AB6ACE15F64671006E227E /* CLCommandQueueInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLCommandQueueInfo.c; sourceTree = "<group>"; };
+		E0AB6ACF15F64671006E227E /* CLCommandQueueInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCommandQueueInfo.h; sourceTree = "<group>"; };
+		E0AB6AD015F64671006E227E /* CLDevice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLDevice.c; sourceTree = "<group>"; };
+		E0AB6AD115F64671006E227E /* CLDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDevice.h; sourceTree = "<group>"; };
+		E0AB6AD215F64671006E227E /* CLEnvironment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLEnvironment.c; sourceTree = "<group>"; };
+		E0AB6AD315F64671006E227E /* CLEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLEnvironment.h; sourceTree = "<group>"; };
+		E0AB6AD415F64671006E227E /* CLGeneral.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLGeneral.c; sourceTree = "<group>"; };
+		E0AB6AD515F64671006E227E /* CLGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGeneral.h; sourceTree = "<group>"; };
+		E0AB6AD615F64671006E227E /* CLMemorySetting.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLMemorySetting.c; sourceTree = "<group>"; };
+		E0AB6AD715F64671006E227E /* CLMemorySetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMemorySetting.h; sourceTree = "<group>"; };
+		E0AB6AD815F64671006E227E /* CLOption.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLOption.c; sourceTree = "<group>"; };
+		E0AB6AD915F64671006E227E /* CLOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLOption.h; sourceTree = "<group>"; };
+		E0AB6ADA15F64671006E227E /* CLProfiling.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLProfiling.c; sourceTree = "<group>"; };
+		E0AB6ADB15F64671006E227E /* CLProfiling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLProfiling.h; sourceTree = "<group>"; };
+		E0AB6ADC15F64671006E227E /* CLSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSize.h; sourceTree = "<group>"; };
+		E0AB6ADD15F64671006E227E /* CLThreading.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLThreading.c; sourceTree = "<group>"; };
+		E0AB6ADE15F64671006E227E /* CLThreading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLThreading.h; sourceTree = "<group>"; };
+		E0AB6ADF15F64671006E227E /* CLTimer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLTimer.c; sourceTree = "<group>"; };
+		E0AB6AE015F64671006E227E /* CLTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTimer.h; sourceTree = "<group>"; };
+		E0AB6AF615F64682006E227E /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0AB6AC215F64629006E227E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AB6AF715F64682006E227E /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0AB6ABA15F64629006E227E = {
+			isa = PBXGroup;
+			children = (
+				E0AB6AF615F64682006E227E /* OpenCL.framework */,
+				E0AB6ACC15F64671006E227E /* CLBuffer.c */,
+				E0AB6ACD15F64671006E227E /* CLBuffer.h */,
+				E0AB6ACE15F64671006E227E /* CLCommandQueueInfo.c */,
+				E0AB6ACF15F64671006E227E /* CLCommandQueueInfo.h */,
+				E0AB6AD015F64671006E227E /* CLDevice.c */,
+				E0AB6AD115F64671006E227E /* CLDevice.h */,
+				E0AB6AD215F64671006E227E /* CLEnvironment.c */,
+				E0AB6AD315F64671006E227E /* CLEnvironment.h */,
+				E0AB6AD415F64671006E227E /* CLGeneral.c */,
+				E0AB6AD515F64671006E227E /* CLGeneral.h */,
+				E0AB6AD615F64671006E227E /* CLMemorySetting.c */,
+				E0AB6AD715F64671006E227E /* CLMemorySetting.h */,
+				E0AB6AD815F64671006E227E /* CLOption.c */,
+				E0AB6AD915F64671006E227E /* CLOption.h */,
+				E0AB6ADA15F64671006E227E /* CLProfiling.c */,
+				E0AB6ADB15F64671006E227E /* CLProfiling.h */,
+				E0AB6ADC15F64671006E227E /* CLSize.h */,
+				E0AB6ADD15F64671006E227E /* CLThreading.c */,
+				E0AB6ADE15F64671006E227E /* CLThreading.h */,
+				E0AB6ADF15F64671006E227E /* CLTimer.c */,
+				E0AB6AE015F64671006E227E /* CLTimer.h */,
+				E0AB6AC615F64629006E227E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0AB6AC615F64629006E227E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0AB6AC515F64629006E227E /* libCLUtil.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E0AB6AC315F64629006E227E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AB6AE215F64671006E227E /* CLBuffer.h in Headers */,
+				E0AB6AE415F64671006E227E /* CLCommandQueueInfo.h in Headers */,
+				E0AB6AE615F64671006E227E /* CLDevice.h in Headers */,
+				E0AB6AE815F64671006E227E /* CLEnvironment.h in Headers */,
+				E0AB6AEA15F64671006E227E /* CLGeneral.h in Headers */,
+				E0AB6AEC15F64671006E227E /* CLMemorySetting.h in Headers */,
+				E0AB6AEE15F64671006E227E /* CLOption.h in Headers */,
+				E0AB6AF015F64671006E227E /* CLProfiling.h in Headers */,
+				E0AB6AF115F64671006E227E /* CLSize.h in Headers */,
+				E0AB6AF315F64671006E227E /* CLThreading.h in Headers */,
+				E0AB6AF515F64671006E227E /* CLTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E0AB6AC415F64629006E227E /* CLUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0AB6AC915F64629006E227E /* Build configuration list for PBXNativeTarget "CLUtil" */;
+			buildPhases = (
+				E0AB6AC115F64629006E227E /* Sources */,
+				E0AB6AC215F64629006E227E /* Frameworks */,
+				E0AB6AC315F64629006E227E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLUtil;
+			productName = CLUtil;
+			productReference = E0AB6AC515F64629006E227E /* libCLUtil.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0AB6ABC15F64629006E227E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Gabriele Cocco";
+			};
+			buildConfigurationList = E0AB6ABF15F64629006E227E /* Build configuration list for PBXProject "CLUtil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0AB6ABA15F64629006E227E;
+			productRefGroup = E0AB6AC615F64629006E227E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0AB6AC415F64629006E227E /* CLUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0AB6AC115F64629006E227E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AB6AE115F64671006E227E /* CLBuffer.c in Sources */,
+				E0AB6AE315F64671006E227E /* CLCommandQueueInfo.c in Sources */,
+				E0AB6AE515F64671006E227E /* CLDevice.c in Sources */,
+				E0AB6AE715F64671006E227E /* CLEnvironment.c in Sources */,
+				E0AB6AE915F64671006E227E /* CLGeneral.c in Sources */,
+				E0AB6AEB15F64671006E227E /* CLMemorySetting.c in Sources */,
+				E0AB6AED15F64671006E227E /* CLOption.c in Sources */,
+				E0AB6AEF15F64671006E227E /* CLProfiling.c in Sources */,
+				E0AB6AF215F64671006E227E /* CLThreading.c in Sources */,
+				E0AB6AF415F64671006E227E /* CLTimer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E0AB6AC715F64629006E227E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E0AB6AC815F64629006E227E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E0AB6ACA15F64629006E227E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0AB6ACB15F64629006E227E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0AB6ABF15F64629006E227E /* Build configuration list for PBXProject "CLUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0AB6AC715F64629006E227E /* Debug */,
+				E0AB6AC815F64629006E227E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0AB6AC915F64629006E227E /* Build configuration list for PBXNativeTarget "CLUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0AB6ACA15F64629006E227E /* Debug */,
+				E0AB6ACB15F64629006E227E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0AB6ABC15F64629006E227E /* Project object */;
+}
